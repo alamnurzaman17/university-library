@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS", // PENTING: Paksa ke CommonJS
+    "target": "es2020",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "database/**/*.ts" // Hanya sertakan file di dalam folder database
+  ]
+}

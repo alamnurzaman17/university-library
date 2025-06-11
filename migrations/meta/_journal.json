@@ -15,6 +15,13 @@
       "when": 1749552805863,
       "tag": "0001_sudden_wolfpack",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1749626365044,
+      "tag": "0002_known_hydra",
+      "breakpoints": true
     }
   ]
 }
